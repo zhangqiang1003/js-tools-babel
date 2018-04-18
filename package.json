@@ -1,0 +1,17 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "es6 to es5",
+  "main": "index.js",
+  "author": "zhangqiang",
+  "license": "ISC",
+  "scripts": {
+    "build": "babel src -d lib", //将src文件夹下的es6代码批量转到lib文件夹下
+    "babel": "./node_modules/.bin/babel src -d lib"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
