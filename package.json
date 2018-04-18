@@ -6,7 +6,7 @@
   "author": "zhangqiang",
   "license": "ISC",
   "scripts": {
-    "build": "babel src -d lib", //将src文件夹下的es6代码批量转到lib文件夹下
+    "build": "babel src -d lib",
     "babel": "./node_modules/.bin/babel src -d lib"
   },
   "devDependencies": {
